@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Cesuca DP</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('ChatGPT Image 15 de mai. de 2025, 13_18_43.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .login-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-frame {
+      background-color: rgba(0, 0, 0, 0); /* invisível */
+      padding: 40px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: none;
+    }
+
+    .login-frame input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    .login-frame input::placeholder {
+      color: #ccc;
+    }
+
+    .login-frame button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #e67e22; /* laranja destacado */
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-frame button:hover {
+      background-color: #cf711c;
+    }
+
+    .login-frame h2 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-frame">
+      <h2>Login Cesuca DP</h2>
+      <input type="text" placeholder="Usuário" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
